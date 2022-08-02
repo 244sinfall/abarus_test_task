@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.tableHead {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    line-height: 19px;
+    height: 54px;
+    width: 1077px;
+    color: white;
+    background-color: #474955;
+}
+.headColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tableContainer {
+    width: 1077px;
+}
+.tableItem {
+    display: flex;
+    flex-direction: row;
+    width: 1077px;
+}
+
+.pageButton {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #474955;
+}
+.pageButton:disabled {
+    color: rgba(71, 73, 85, 0.5);
+}
+.navigationButton {
+    font-style: italic;
+    font-size: 18px;
+}
+.navigationButton:disabled {
+    color: #7EBC3C;
+}
+
+.tableItemColumn {
+    display: flex;
+
+    align-items: center;
+    text-align: start;
+    color: #474955;
+    font-weight: 500;
+    padding: 15px 12px 14px 11px;
+    line-height: 18px;
+    font-size: 13px;
+    min-height: 57px;
+    border: 1px solid #E3E6EC;
+}
+.headColumn svg {
+    padding-top: 2px;
+}
+.idColumn {
+    width: 114px;
+    justify-content: center;
+}
+.headId p {
+    padding-left: 23px;
+}
+.headId svg {
+    padding-left: 39px;
+}
+.titleColumn {
+    width: 529px;
+}
+.headTitle p {
+    padding-left: 129px;
+}
+.headTitle svg {
+    padding-left: 34px;
+}
+.bodyColumn {
+    width: 434px;
+}
+.headBody p {
+    padding-left: 122px;
+}
+.headBody svg {
+    padding-left: 25px;
+}
+.tableControls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 41px;
+    padding-right: 25px;
+    padding-top: 16px;
+    align-items: center;
+}
